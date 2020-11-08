@@ -1,0 +1,9 @@
+D:\Work\CodingPractice\ShopBridge\ShopBridge.DataModels\bin\Debug\netstandard2.0\ShopBridge.DataModels.deps.json
+D:\Work\CodingPractice\ShopBridge\ShopBridge.DataModels\bin\Debug\netstandard2.0\ShopBridge.DataModels.dll
+D:\Work\CodingPractice\ShopBridge\ShopBridge.DataModels\bin\Debug\netstandard2.0\ShopBridge.DataModels.pdb
+D:\Work\CodingPractice\ShopBridge\ShopBridge.DataModels\obj\Debug\netstandard2.0\ShopBridge.DataModels.AssemblyInfoInputs.cache
+D:\Work\CodingPractice\ShopBridge\ShopBridge.DataModels\obj\Debug\netstandard2.0\ShopBridge.DataModels.AssemblyInfo.cs
+D:\Work\CodingPractice\ShopBridge\ShopBridge.DataModels\obj\Debug\netstandard2.0\ShopBridge.DataModels.dll
+D:\Work\CodingPractice\ShopBridge\ShopBridge.DataModels\obj\Debug\netstandard2.0\ShopBridge.DataModels.pdb
+D:\Work\CodingPractice\ShopBridge\ShopBridge.DataModels\obj\Debug\netstandard2.0\ShopBridge.DataModels.csprojAssemblyReference.cache
+D:\Work\CodingPractice\ShopBridge\ShopBridge.DataModels\obj\Debug\netstandard2.0\ShopBridge.DataModels.csproj.CoreCompileInputs.cache

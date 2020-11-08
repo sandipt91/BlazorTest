@@ -1,0 +1,37 @@
+﻿
+@page "/addproduct"
+
+@inherits AddProductBase
+
+@inject NavigationManager navigationManager
+
+<div class="row">
+    <div class="col-12">
+        <EditForm Model="@product" OnValidSubmit="AddProcuct">
+            <DataAnnotationsValidator />
+            @*<ValidationSummary />*@
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="Name">Name</label>
+                    <InputText id="Name" class="form-control" placeholder="Name" @bind-Value="product.Name"></InputText>
+                    <ValidationMessage For="@(()=> product.Name)" />
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Description</label>
+                    <InputTextArea class="form-control" id="Description" @bind-Value="product.Description" placeholder="Description"> </InputTextArea>
+                    <ValidationMessage For="@(()=> product.Description)" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Price">Price</label>
+                <InputNumber class="form-control" id="Price" @bind-Value="product.Price" placeholder="10,20"></InputNumber>
+                <ValidationMessage For="@(()=> product.Price)" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Add Product</button> &nbsp; &nbsp; 
+            <a href="/" class="btn btn-primary">Back</a>
+        </EditForm>
+    </div>
+</div>
+
+

@@ -1,0 +1,45 @@
+﻿@page "/"
+@inherits ProductBase
+
+
+<div class="container"> 
+    <a class="btn btn-primary mb-2" href="/addproduct"> Add Product</a> 
+    <div class="row">
+        <div class="col-lg-12"> 
+            @if (productList == null)
+            {
+                <h1>NO data found</h1>
+            }
+            else
+            {
+                <table class="table">
+                    <thead>
+
+                        <tr>
+                            <td> Name</td>
+                            <td> Description</td>
+                            <td>Price</td> 
+                            <td>Actions</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Product product in productList)
+                        {
+                            <tr>
+                                <td> <a href="@($"productdetails/{product.ProductId}")"> @product.Name</a></td>
+                                <td>@product.Description</td>
+                                <td>@product.Price</td>
+                                <td>
+
+                                    <a class="btn btn-danger" @onclick="(()=> DeleteProduct(product))"> Delete</a>
+                                </td>
+                            </tr>
+
+                        }
+
+                    </tbody>
+                </table>
+            }
+        </div>
+    </div> 
+</div>
